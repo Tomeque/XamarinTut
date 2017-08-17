@@ -1,0 +1,25 @@
+=== github
+
+dodajemy do github poprzez sync biezacy projekt -> publish to git repository (nie to github)
+(ale najpierw trzeba w github utworzyc nowe repozytorium)
+i jego caly url wkleic jako adres remota na jakiego wysylamy kod
+(mozliwe ze trzeba miec wtyczke github extensions do visual studio)
+
+=== github
+
+utworzenie nowego projektu lokalnie na podstawie GitHub - trzeba mieæ wtyczke github
+wtedy clone repository - pozwala sczytac repo z sieci (po zalogowaniu)
+i mozna otworzyc sln
+
+=== android emulator
+
+Disable Hyper-V: klawisz Win+X -> Program Windows Power Shell (Administrator)
+dism.exe /Online /Disable-Feature:Microsoft-Hyper-V-All
+
+=== SQLite work
+nuget package manager console: Install-Package	sqlite-net-pcl
+using System.IO;
+using SQLite;
+
+(inaczej: SQLite.NET - SQLite client -> (Solution manager) -> Components -> GetMoreComponents -> seatch SQLite.NET -> Add to App, 
+ale wtedy trzeba tez sprawdzic update w Manage NuGet Packages for Solution)
