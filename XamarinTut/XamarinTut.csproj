@@ -79,6 +79,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Docs\Zalozenia.docx" />
     <None Include="GettingStarted.Xamarin" />
     <AndroidResource Include="Resources\layout\list_view_dataTemplate.axml">
       <SubType>Designer</SubType>
@@ -102,6 +103,9 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="Docs\info.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.
